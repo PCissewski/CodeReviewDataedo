@@ -1,0 +1,8 @@
+﻿- wyrażenia 'using' importujące przeniósł na samą góre pliku i usunął nieużywane
+- prywatne property klasy zaczynają się od _{małalitera} i dalej wyraz, oraz użyć explicit private modifier 
+- Metoda ImportAndPrintData powinna być rozdzielona na osobne metody, Single responsibility principle.
+- Źle podana nazwa pliku w wywołaniu metody
+- odwrócić if żeby pomijać przypadki kiedy database.Type != "DATABASE", w pozostałych ifach tak samo 
+żeby usprawnić m.in. szybkość programu
+- w var importedObject = new ImportedObject, inicjalizować in place
+- nieużywane zmienne czy to metody lub parametry usunąć YAGNI
